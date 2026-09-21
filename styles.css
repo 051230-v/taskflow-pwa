@@ -386,6 +386,7 @@ body {
   align-items: flex-end;
   justify-content: center;
 }
+.modal[hidden] { display: none; }
 .modal__backdrop {
   position: absolute;
   inset: 0;
